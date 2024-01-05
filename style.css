@@ -1,0 +1,273 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: rgb(0, 10, 33);
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li {
+    list-style-type: none;
+    margin: 0 23px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  nav ul li a:hover {
+    color: rgb(179, 25, 8);
+    font-size: 1.01rem;
+  }
+  main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+  }
+  .left {
+    font-size: 2rem;
+  }
+  .firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+  }
+  .firstSection > div {
+    width: 30%;
+  }
+  .leftSection {
+    font-size: 2rem;
+  }
+  .leftSection .button{
+    padding: 50px 0;
+  }
+  .btn a{
+    text-decoration: none;
+    color: white;
+  }
+  .button .btn a:hover{
+    color: aqua;
+   }
+  .leftSection .btn {
+    padding: 10px;
+    background: black;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .rightSection img {
+    width: 90%;
+  }
+  
+  .purple {
+    color: rgb(170, 107, 228);
+  }
+  .text-gray {
+    color: gray;
+  }
+  #element {
+    color: rgb(170, 107, 228);
+  }
+  .secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+  }
+  .secondSection h1 {
+    font-size: 1.9rem;
+  }
+  .secondSection .box {
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+  }
+  .secondSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+  }
+  .ThirdSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+  }
+  .ThirdSection h1 {
+    font-size: 1.9rem;
+  }
+  .ThirdSection .box {
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+  }
+  .ThirdSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 95px;
+  }
+
+  .image-top {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+  }
+  .vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 14px;
+  }
+  .vertical-desc {
+    position: relative;
+    top: 75px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+  }
+  .footer {
+    background-color: rgb(15, 6, 15);
+  }
+  .footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+  }
+  .footer ul {
+    list-style: none;
+  }
+  .footer ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  .footer ul li a:hover {
+    color: rgb(179, 25, 8);
+    font-size: 1.01rem;
+  }
+  .footer > div {
+    width: 223px;
+  }
+  footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+  }
+
+  .contactform{
+    padding: 0 34px;
+    padding-top: 50px;
+    font-family: "Poppins", sans-serif;
+    
+  }
+  .contactform h1{
+    font-family: "Poppins", sans-serif;
+    padding: 12px 0;
+  }
+
+  .contactform form div{
+     padding: 10px 0;
+     display: flex;
+     flex-direction: column;
+  }
+
+  .contactform form div input{
+     width: 26vw;
+     border-radius: 5px;
+     margin: 6px 0 0 0;
+     padding: 3px;
+  }
+
+  #emailHelp{
+    font-size: 11px;
+    color: white;
+    margin: 0 5px;
+    padding: 2px 0 0 0;
+  }
+
+  #form-check{
+    flex-direction: row;
+  }
+  #form-check input{
+    width: 24px;
+    margin: 3px 0;
+  }
+
+  .btn {
+    padding: 10px;
+    color: white;
+    background: black;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .btn:hover{
+    color: aqua;
+   }
+
+   .project{
+    margin: 20px;
+    font-family: "Poppins", sans-serif;
+    
+   }
+   h1{
+    font-family: "Poppins", sans-serif;
+    margin: 23px;
+   }
+
+   p{
+    font-family: "Poppins", sans-serif;
+   }
+
+   .intro h2{
+    font-family: "Poppins", sans-serif;
+    margin: 12px;
+   
+   }
+
+   .intro p{
+    font-family: "Poppins", sans-serif;
+    margin: 12px;
+   }
+
+   .skills {
+    font-family: "Poppins", sans-serif;
+    margin: 12px;
+   }
+
+   .image{
+    padding: 1px;
+    width: 20px;
+    margin: 0px 5px;
+    top: -32px;
+    left: -5px;
+   }
+
+    
+  .button1 .btn{
+    margin: 12px;
+  }
+  .button1 .btn a:hover{
+    color: aqua;
+  }
